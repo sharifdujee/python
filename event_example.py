@@ -18,4 +18,6 @@ ttk.Button(root, text="Rock", command=lambda:select("Rock")).pack()
 ttk.Button(root, text="Pack ", command=lambda:select("Pack")).pack()
 ttk.Button(root, text="Scissors", command=lambda:select("Scissors")).pack()
 
+
+
 root.mainloop()
